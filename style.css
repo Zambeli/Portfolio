@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+
+:root {
+    --cor-primaria: rgb(34, 212, 253);
+    --cor-secundaria: rgb(14, 14, 13);
+    --cor-terciaria: rgb(248, 183, 5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom left, rgb(0, 0, 0)38%, var(--cor-terciaria)83%);
+}
+
+
+/* CABEÇALHO */
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0)95%, var(--cor-terciaria)5%);
+    text-shadow: black 5px 5px 5px;
+}
+
+.cabecalho_menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: rgb(255, 254, 253);
+}
+
+
+.cabecalho_imagem {
+    width: 5rem;
+    height: 5rem;
+}
+
+.cabecalho_imagem_sol {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* PRINCIPAL */
+
+.tamanho_menu {
+    margin:0 auto;
+    max-width: 69rem;
+    height: 80vh;
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tamanho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1150px;
+    height: 100vh;
+    padding: 77px 50px 0 50px;
+}
+
+.home_menu{
+    display: flex;
+    text-align: center;
+    color: var(--cor-terciaria);
+}
+
+.imagem_eu {
+    border-radius: 90%;
+    width: 35%;
+
+}
+
+.texto_menu  {
+   font-size: 2rem;
+   font-weight: 800;
+}
+
+.descricao_inicio {
+    padding: 6rem;
+}
+
+.zambeli {
+    color: white;
+}
+
+.teste {
+    width: 25%;
+    height: 45%;
+}
+
+.sobre-mim {
+    display: flex;
+    color: var(--cor-terciaria);
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.texto-sobre {
+    color: rgb(230, 197, 10);
+    margin: 2rem;
+}
+
+.sobre-titulo {
+    color:darkgoldenrod;
+}
+
+.imagem-sobre {
+    width: 40%;
+}
+
+.projetos-gif {
+    width: 25rem;
+    height: 13rem;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.projetos-gif:hover, .imagem-git:hover, .imagem-contatos:hover {
+    transform: scale(1.1);
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    gap: 0.5rem;
+}
+
+.projetos-englobamento {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tamanho-projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 77px 50px 0 50px;
+    gap: 2rem;
+    color: #ffffffe7;
+}
+
+.imagem-git {
+    width: 40px;
+}
+
+.imagem-contatos {
+    width: 30%;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+
+.tamanho-contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    gap: 2rem;
+    color: #030303e7;
+    max-width: 1150px;
+    height: 63vh;
+    padding-top: 5rem;
+    font-weight: bold;
+}
+
+.contatos {
+    display: flex;
+    margin: 3rem;
+    gap: 8rem;
+    text-align: center;
+    align-items: center;
+}
+
+.logos {
+    display: flex;
+    padding: 0 0 0 10rem;
+    gap: 30px;
+}
+
+.contatos-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.discord {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0 0 0 11rem;
+}
