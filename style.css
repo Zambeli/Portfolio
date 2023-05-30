@@ -256,12 +256,6 @@ footer {
     justify-content: center;
 }
 
-/* 
-   3  Fazer a responsividade
-   4  Fazer Menu Hamburguer (Lascou) "posso pegar como base o maurucio"
-*/ 
-
-
 @media screen and (max-width: 900px) {
     .tamanho-contatos {
         max-width: 1150px;
@@ -342,6 +336,10 @@ footer {
         height: 40vh;
     }
 
+    .resumo-sobre {
+        padding: 1rem;
+    }
+
 
     
   }
@@ -367,6 +365,7 @@ footer {
     .sobre-mim-p {
         font-size:14px;
     }
+
 
 }
 
