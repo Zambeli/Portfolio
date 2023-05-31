@@ -5,6 +5,8 @@ const menu_items = document.querySelectorAll('nav .mainMenu li a');
 
 openMenu.addEventListener('click',show);
 closeMenu.addEventListener('click',close);
+openMenu.addEventListener('touchstart',show)
+closeMenu.addEventListener('touchstart',close)
 
 menu_items.forEach(item => {
     item.addEventListener('click',function(){
@@ -18,5 +20,5 @@ function show(){
 }
 function close(){
     mainMenu.style.top = '-100%';
-    mainMenu.style.display = 'none'
+    mainMenu.style.display = 'flex'
 }
