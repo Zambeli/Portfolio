@@ -8,7 +8,9 @@ closeMenu.addEventListener('click',close);
 
 menu_items.forEach(item => {
     item.addEventListener('click',function(){
-        close();
+        if (window.matchMedia("(max-width: 600px)").matches) {
+            close();
+          };
     })
 })
 
@@ -19,5 +21,5 @@ function show(){
 
 function close(){
     mainMenu.style.top = '-100%';
-    mainMenu.style.display = 'none'
+    mainMenu.style.display = 'flex'
 }
