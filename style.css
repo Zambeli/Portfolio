@@ -105,11 +105,13 @@ body {
     display: flex;
     text-align: center;
     color: var(--cor-terciaria);
+    animation: inicializar 2s forwards;
 }
 
 .imagem_eu {
     border-radius: 90%;
     width: 35%;
+    animation: cair 3s ease;
 }
 
 .texto_menu  {
@@ -136,6 +138,7 @@ body {
     align-items: center;
     text-align: center;
     gap: 40px;
+    animation: inicializar 1s ease;
 }
 
 .texto-sobre {
@@ -463,6 +466,18 @@ footer {
         height: 45vh;
     }
 
+}
+
+@keyframes inicializar {
+    from {
+        opacity: 0;
+        transform: translate3d(0,-100px,0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
 }
 
 
